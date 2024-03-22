@@ -1,4 +1,4 @@
-const RoomType = require('./RoomType');
+const RoomType = require('.\src\models\RoomType.js');
 
 // Controller function for creating a new room type
 const createRoomType = async (req, res) => {
